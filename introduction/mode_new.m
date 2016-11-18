@@ -1,5 +1,5 @@
 function [y] = mode_new(x)
-%Function to calculate mode of set of values
+% Function to calculate mode of set of values
 un = sort(unique(x)); %this sorts values in order as they are in histogram
 h = histogram (x);
 counts = h.Values; %counts the frequency of each bin
